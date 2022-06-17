@@ -1,0 +1,5 @@
+<launch>
+    <!-- world_number:=5 -->
+    <include file="$(find task1)/launch/combined.launch" pass_all_args="true" />
+    <include file="$(find task1)/launch/autonomous.launch" />
+</launch>

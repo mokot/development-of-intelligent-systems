@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="task1" type="normal_map_service.py" name="normals"/>
+    <node pkg="task1" type="movement.py" name="movement" output="screen"/>
+    <node pkg="task1" type="face.py" name="face_localizer"/>
+</launch>

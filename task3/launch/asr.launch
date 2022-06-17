@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="task3" type="extract_speech.py" name="asr" output="screen"/>
+</launch>

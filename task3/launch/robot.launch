@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="task3" type="cylinder_detection.py" name="cylinder_detection" output="screen"/>
+    <node pkg="task3" type="arm_controller.py" name="arm_controller"/>
+    <node pkg="task1" type="normal_map_service.py" name="normals"/>
+    <node pkg="task3" type="movement.py" name="movement" output="screen"/>
+    <node pkg="task3" type="extract_qr.py" name="qr" />
+    <node pkg="task3" type="face_test.py" name="face" />
+
+    <include file="$(find task3)/launch/circles.launch" output="screen" />
+</launch>
