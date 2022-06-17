@@ -1,5 +1,7 @@
 # Development of Intelligent Systems
 
+[![Video](https://img.youtube.com/vi/kIe1qp8iarY/maxresdefault.jpg)](https://youtu.be/kIe1qp8iarY)
+
 In this report we describe the methods, implementation and integration and the results achieved solving
 tasks in the course Development of Intelligent Systems in the academic year 2021/2022. We also state
 how the work was divided and give some final remarks on our work at the end of the report.
